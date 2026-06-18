@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="{{ current_lang }}" xml:lang="{{ current_lang }}"
+  prefix="dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ schema: https://schema.org/">
+
+<head>
+  {% for l, href in alternates.items() %}
+  <link rel="alternate" href="{{ href }}" hreflang="{{ l }}" />
+  {% endfor %}
+  <meta charset="UTF-8" />
+  <!-- Métadonnées RDFa Dublin Core -->
+  <meta property="dc:creator" content="{{ texts['personal_name'] }}" />
+  <meta property="dc:language" content="{{ current_lang }}" />
+  <meta property="dc:title" content="{{ texts['personal_title'] }}" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Titre et meta dynamiques -->
+  <title>{{ texts['personal_name'] }} – {{ texts['personal_title'] }}</title>
+  <meta name="description" content="{{ texts['meta_description'] }}" />
+  <meta name="keywords" content="{{ texts['meta_keywords'] }}" />
+  <meta name="author" content="{{ texts['personal_name'] }}" />
+  <meta property="rdfa:usesVocabulary" content="https://schema.org/" />
+  <meta property="rdfa:usesVocabulary" content="http://xmlns.com/foaf/0.1/" />
+
+  <link rel="author" href="{{ texts['account_linkedin_url'] }}" />
+
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body lang="{{ current_lang }}" {% if current_lang=='ar' %}dir="rtl" {% endif %}>
+  <a class="skip-link" href="#main-content">{{ texts['skip_link'] }}</a>
+
+  <!-- Splash et particules -->
+  <div class="loading-screen" id="loadingScreen">
+    <div class="loading-spinner"></div>
+    <div class="loading-text">{{ texts['loading_text'] }}</div>
+  </div>
+  <div class="particles" id="particles"></div>
+
+  <!-- Navbar -->
+  <nav class="navbar" aria-label="{{ texts['nav_label'] }}">
+    <div class="nav-container">
+      <div class="nav-logo" data-aos="fade-down">
+        <span>{{ texts['personal_name'] }}</span>
+      </div>
+      <ul class="nav-menu" id="mainNavigation">
+        <li class="nav-item"><a href="#home" class="nav-link">{{ texts['nav_home'] }}</a></li>
+        <li class="nav-item"><a href="#about" class="nav-link">{{ texts['nav_about'] }}</a></li>
+        <li class="nav-item"><a href="#skills" class="nav-link">{{ texts['nav_skills'] }}</a></li>
+        <li class="nav-item"><a href="#experience" class="nav-link">{{ texts['nav_experience'] }}</a></li>
+        <li class="nav-item"><a href="#education" class="nav-link">{{ texts['nav_education'] }}</a></li>
+        <li class="nav-item"><a href="#contact" class="nav-link nav-cta">{{ texts['nav_contact'] }}</a></li>
+      </ul>
+
+
+
+      <div class="language-selector-nav" aria-label="{{ texts['language_selector_label'] }}">
+        <a class="language-link" href="?lang=fr" hreflang="fr" lang="fr" aria-label="Français"{% if current_lang == 'fr' %} aria-current="page"{% endif %}>
+          <img src="{{ url_for('static', filename='assets/fr.png') }}" alt="" width="24" height="24" />
+        </a>
+        <a class="language-link" href="?lang=en" hreflang="en" lang="en" aria-label="English"{% if current_lang == 'en' %} aria-current="page"{% endif %}>
+          <img src="{{ url_for('static', filename='assets/en.png') }}" alt="" width="24" height="24" />
+        </a>
+        <a class="language-link" href="?lang=ar" hreflang="ar" lang="ar" aria-label="العربية"{% if current_lang == 'ar' %} aria-current="page"{% endif %}>
+          <img src="{{ url_for('static', filename='assets/ar.png') }}" alt="" width="24" height="24" />
+        </a>
+        <a class="language-link" href="?lang=ja" hreflang="ja" lang="ja" aria-label="日本語"{% if current_lang == 'ja' %} aria-current="page"{% endif %}>
+          <img src="{{ url_for('static', filename='assets/ja.png') }}" alt="" width="24" height="24" />
+        </a>
+      </div>
+
+      <button class="hamburger" type="button" aria-label="{{ texts['menu_label'] }}" aria-controls="mainNavigation" aria-expanded="false"><span class="bar"></span><span class="bar"></span><span class="bar"></span></button>
+    </div>
+  </nav>
+
+
+  <main id="main-content">
+  <!-- Section Home -->
+  <section id="home" class="hero">
+    <div class="hero-container">
+      <div class="hero-content" data-aos="fade-right">
+        <h1>{{ texts['personal_name'] }}</h1>
+        <div class="typewriter"><span class="typewriter-text" data-texts="{{ texts['typewriter_texts'] }}"></span></div>
+        <p class="hero-description">{{ texts['personal_title'] }}</p>
+        <div class="hero-buttons">
+          <a href="#contact" class="btn btn-primary">{{ texts['btn_contact'] }}</a>
+          <a href="{{ url_for('static', filename='assets/CvSafaFERCHICHI.pdf') }}" download="download"
+            class="btn btn-secondary">{{ texts['btn_download'] }}</a>
+        </div>
+
+        <!-- RDFa schema.org pour l'indexation sémantique -->
+        <div vocab="https://schema.org/" typeof="Person">
+          <span property="name">{{ texts['personal_name'] }}</span><br />
+          <span property="jobTitle">{{ texts['personal_title'] }}</span><br />
+          <a href="mailto:{{ texts['personal_email'] }}" property="schema:email">{{ texts['personal_email'] }}</a>
+        </div>
+        <!-- FOAF RDFa complémentaire -->
+        <div vocab="http://xmlns.com/foaf/0.1/" typeof="foaf:Person">
+          <span property="foaf:name">{{ texts['personal_name'] }}</span><br />
+          <span property="foaf:title">{{ texts['personal_title'] }}</span><br />
+          <a href="mailto:{{ texts['personal_email'] }}" property="foaf:mbox">{{ texts['personal_email'] }}</a>
+        </div>
+
+        <div class="social-links">
+          <a href="{{ texts['account_linkedin_url'] }}" target="_blank" rel="noopener noreferrer" aria-label="{{ texts['linkedin_label'] }}"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+          <a href="mailto:{{ texts['personal_email'] }}" aria-label="{{ texts['email_label'] }}"><i class="fas fa-envelope" aria-hidden="true"></i></a>
+        </div>
+      </div>
+      <div class="hero-image" data-aos="fade-left">
+        <div class="image-wrapper">
+          <img src="{{ url_for('static', filename='assets/profile.jpg') }}" alt="{{ texts['profile_alt'] }}" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Section About -->
+  <section id="about" class="section" data-aos="fade-up">
+    <div class="container">
+      <div class="section-header">
+        <h2>{{ texts['education_title'] }}</h2>
+        <p class="section-subtitle">{{ texts['subtitle_about'] }}</p>
+      </div>
+      <div class="about-content">
+        <p>{{ texts['education_sorbonne'] }}</p>
+        <p>{{ texts['education_upjv'] }}</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section Skills -->
+  <section id="skills" class="section" data-aos="fade-up">
+    <div class="container">
+      <div class="section-header">
+        <h2>{{ texts['skills_title'] }}</h2>
+        <p class="section-subtitle">{{ texts['subtitle_skills'] }}</p>
+      </div>
+      <div class="skills-grid">
+        <p>{{ texts['skills_list'] }}</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section Experience -->
+  <section id="experience" class="section" data-aos="fade-up">
+    <div class="container">
+      <div class="section-header">
+        <h2>{{ texts['experience_title'] }}</h2>
+        <p class="section-subtitle">{{ texts['subtitle_experience'] }}</p>
+      </div>
+      <ul class="experience-list">
+        <li>{{ texts['exp_holydis_ai'] }}</li>
+        <li>{{ texts['exp_holydis_fs'] }}</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Section Education -->
+  <section id="education" class="section" data-aos="fade-up">
+    <div class="container">
+      <div class="section-header">
+        <h2>{{ texts['education_title'] }}</h2>
+        <p class="section-subtitle">{{ texts['subtitle_education'] }}</p>
+      </div>
+      <ul class="education-list">
+        <li>{{ texts['education_sorbonne'] }}</li>
+        <li>{{ texts['education_upjv'] }}</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Section TPs de WS (exemple) -->
+  <section id="ws" class="section" data-aos="fade-up">
+    <div class="container">
+      <h2>{{ texts['tp_ws_title'] }}</h2>
+      <ul>
+        <li>{{ texts['tp_ws_dtd'] }}</li>
+        <li>{{ texts['tp_ws_xsd'] }}</li>
+        <li>{{ texts['tp_ws_xslt'] }}</li>
+        <li>{{ texts['tp_ws_rdf'] }}</li>
+        <li>{{ texts['tp_ws_rdfa'] }}</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Section Vidéo -->
+  <section id="video" class="section" data-aos="fade-up">
+    <div class="container">
+      <h2>{{ texts['video_title'] }}</h2>
+      <div class="video-wrapper">
+        {{ texts['video_iframe']|safe }}
+      </div>
+    </div>
+  </section>
+
+  <!-- Section Contact -->
+  <section id="contact" class="section" data-aos="fade-up">
+    <div class="container">
+      <div class="section-header">
+        <h2>{{ texts['nav_contact'] }}</h2>
+        <p class="section-subtitle">{{ texts['subtitle_contact'] }}</p>
+      </div>
+      <p><a href="mailto:{{ texts['personal_email'] }}">{{ texts['personal_email'] }}</a></p>
+    </div>
+  </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>© {{ now().year }} {{ texts['personal_name'] }}. {{ texts['footer_rights'] }}</p>
+    </div>
+  </footer>
+
+  <button class="scroll-to-top" id="scrollToTop" type="button" aria-label="{{ texts['top_label'] }}"><i class="fas fa-chevron-up" aria-hidden="true"></i></button>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js" defer="defer"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js" defer="defer"></script>
+  <script src="{{ url_for('static', filename='js/portfolio.js') }}" defer="defer"></script>
+</body>
+
+</html>

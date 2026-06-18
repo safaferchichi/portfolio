@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"
+  prefix="dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ schema: https://schema.org/">
+
+<head>
+  
+  <link rel="alternate" href="index.html" hreflang="fr" />
+  
+  <link rel="alternate" href="en.html" hreflang="en" />
+  
+  <link rel="alternate" href="ar.html" hreflang="ar" />
+  
+  <link rel="alternate" href="ja.html" hreflang="ja" />
+  
+  <meta charset="UTF-8" />
+  <!-- Métadonnées RDFa Dublin Core -->
+  <meta property="dc:creator" content="Safa Ferchichi" />
+  <meta property="dc:language" content="en" />
+  <meta property="dc:title" content="Computer engineering student and web developer" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Titre et meta dynamiques -->
+  <title>Safa Ferchichi – Computer engineering student and web developer</title>
+  <meta name="description" content="Safa Ferchichi – Computer engineering student at Sup Galilée, passionate about web development, information systems and semantic web technologies." />
+  <meta name="keywords" content="Safa Ferchichi, Laravel, Symfony, PHP, Java, Python, SQL, Portfolio" />
+  <meta name="author" content="Safa Ferchichi" />
+  <meta property="rdfa:usesVocabulary" content="https://schema.org/" />
+  <meta property="rdfa:usesVocabulary" content="http://xmlns.com/foaf/0.1/" />
+
+  <link rel="author" href="https://www.linkedin.com/in/safa-ferchichi-06948924b/" />
+
+  <link rel="stylesheet" href="../static/css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body lang="en" >
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <!-- Splash et particules -->
+  <div class="loading-screen" id="loadingScreen">
+    <div class="loading-spinner"></div>
+    <div class="loading-text">Loading portfolio...</div>
+  </div>
+  <div class="particles" id="particles"></div>
+
+  <!-- Navbar -->
+  <nav class="navbar" aria-label="Main navigation">
+    <div class="nav-container">
+      <div class="nav-logo" data-aos="fade-down">
+        <span>Safa Ferchichi</span>
+      </div>
+      <ul class="nav-menu" id="mainNavigation">
+        <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+        <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+        <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+        <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+        <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+        <li class="nav-item"><a href="#contact" class="nav-link nav-cta">Contact</a></li>
+      </ul>
+
+
+
+      <div class="language-selector-nav" aria-label="Choose language">
+        <a class="language-link" href="index.html" hreflang="fr" lang="fr" aria-label="Français">
+          <img src="../static/assets/fr.png" alt="" width="24" height="24" />
+        </a>
+        <a class="language-link" href="en.html" hreflang="en" lang="en" aria-label="English" aria-current="page">
+          <img src="../static/assets/en.png" alt="" width="24" height="24" />
+        </a>
+        <a class="language-link" href="ar.html" hreflang="ar" lang="ar" aria-label="العربية">
+          <img src="../static/assets/ar.png" alt="" width="24" height="24" />
+        </a>
+        <a class="language-link" href="ja.html" hreflang="ja" lang="ja" aria-label="日本語">
+          <img src="../static/assets/ja.png" alt="" width="24" height="24" />
+        </a>
+      </div>
+
+      <button class="hamburger" type="button" aria-label="Open or close the menu" aria-controls="mainNavigation" aria-expanded="false"><span class="bar"></span><span class="bar"></span><span class="bar"></span></button>
+    </div>
+  </nav>
+
+
+  <main id="main-content">
+  <!-- Section Home -->
+  <section id="home" class="hero">
+    <div class="hero-container">
+      <div class="hero-content" data-aos="fade-right">
+        <h1>Safa Ferchichi</h1>
+        <div class="typewriter"><span class="typewriter-text" data-texts="Web Development|Laravel / Symfony|Engineering Student|Information Systems"></span></div>
+        <p class="hero-description">Computer engineering student and web developer</p>
+        <div class="hero-buttons">
+          <a href="#contact" class="btn btn-primary">Contact me</a>
+          <a href="../static/assets/CvSafaFERCHICHI.pdf" download="download"
+            class="btn btn-secondary">Download CV</a>
+        </div>
+
+        <!-- RDFa schema.org pour l'indexation sémantique -->
+        <div vocab="https://schema.org/" typeof="Person">
+          <span property="name">Safa Ferchichi</span><br />
+          <span property="jobTitle">Computer engineering student and web developer</span><br />
+          <a href="mailto:safaferchichi2003@gmail.com" property="schema:email">safaferchichi2003@gmail.com</a>
+        </div>
+        <!-- FOAF RDFa complémentaire -->
+        <div vocab="http://xmlns.com/foaf/0.1/" typeof="foaf:Person">
+          <span property="foaf:name">Safa Ferchichi</span><br />
+          <span property="foaf:title">Computer engineering student and web developer</span><br />
+          <a href="mailto:safaferchichi2003@gmail.com" property="foaf:mbox">safaferchichi2003@gmail.com</a>
+        </div>
+
+        <div class="social-links">
+          <a href="https://www.linkedin.com/in/safa-ferchichi-06948924b/" target="_blank" rel="noopener noreferrer" aria-label="Safa Ferchichi&#39;s LinkedIn profile"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+          <a href="mailto:safaferchichi2003@gmail.com" aria-label="Email Safa Ferchichi"><i class="fas fa-envelope" aria-hidden="true"></i></a>
+        </div>
+      </div>
+      <div class="hero-image" data-aos="fade-left">
+        <div class="image-wrapper">
+          <img src="../static/assets/profile.jpg" alt="Portrait of Safa Ferchichi" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Section About -->
+  <section id="about" class="section" data-aos="fade-up">
+    <div class="container">
+      <div class="section-header">
+        <h2>Education</h2>
+        <p class="section-subtitle">Computer engineering student</p>
+      </div>
+      <div class="about-content">
+        <p>Computer Engineering Degree – Sup Galilée, Sorbonne Paris Nord University (2024–present)</p>
+        <p>Applied Bachelor in Information Technology, Information Systems Development – ISET Radès (2021–2024)</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section Skills -->
+  <section id="skills" class="section" data-aos="fade-up">
+    <div class="container">
+      <div class="section-header">
+        <h2>Technical Skills</h2>
+        <p class="section-subtitle">Technologies and tools</p>
+      </div>
+      <div class="skills-grid">
+        <p>Laravel, Symfony, PHP, Java, C, C++, Python, JavaScript, Angular, Android, SQL/PLSQL, MongoDB, Power BI, SSIS, Excel</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section Experience -->
+  <section id="experience" class="section" data-aos="fade-up">
+    <div class="container">
+      <div class="section-header">
+        <h2>Experience</h2>
+        <p class="section-subtitle">Professional Journey</p>
+      </div>
+      <ul class="experience-list">
+        <li>Final-year internship – SOTEB Modula, Tunis (Feb 2024 – May 2024): design and development of a logistics management web application with Laravel.</li>
+        <li>Internship – Clevory Training, Tunis (Jan 2023 – Feb 2023): development of an e-commerce website with PrestaShop and improvement of the user experience.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Section Education -->
+  <section id="education" class="section" data-aos="fade-up">
+    <div class="container">
+      <div class="section-header">
+        <h2>Education</h2>
+        <p class="section-subtitle">Academic Background</p>
+      </div>
+      <ul class="education-list">
+        <li>Computer Engineering Degree – Sup Galilée, Sorbonne Paris Nord University (2024–present)</li>
+        <li>Applied Bachelor in Information Technology, Information Systems Development – ISET Radès (2021–2024)</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Section TPs de WS (exemple) -->
+  <section id="ws" class="section" data-aos="fade-up">
+    <div class="container">
+      <h2>Semantic Web Labs</h2>
+      <ul>
+        <li>Definition of a DTD to structure a multilingual portfolio (XML + DTD)</li>
+        <li>Portfolio validation with a custom XSD schema</li>
+        <li>Transformation of XML content into HTML5 pages with XSLT</li>
+        <li>Use of RDF / RDFS to enrich portfolio metadata</li>
+        <li>RDFa annotation in HTML to improve SEO and accessibility</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Section Vidéo -->
+  <section id="video" class="section" data-aos="fade-up">
+    <div class="container">
+      <h2>Video Presentation</h2>
+      <div class="video-wrapper">
+        
+    <video controls="controls" preload="metadata" poster="/static/assets/profile.jpg" aria-label="Video presentation by Safa Ferchichi">
+      <source src="../static/assets/presentation-safa-nouvelle-voix.mp4" type="video/mp4" />
+      <track kind="subtitles" src="../static/assets/presentation-safa-en.vtt" srclang="en" label="English" default="default" />
+      <track kind="subtitles" src="../static/assets/presentation-safa-fr.vtt" srclang="fr" label="Français" />
+      <track kind="subtitles" src="../static/assets/presentation-safa-ar.vtt" srclang="ar" label="العربية" />
+      <track kind="subtitles" src="../static/assets/presentation-safa-ja.vtt" srclang="ja" label="日本語" />
+    </video>
+  
+      </div>
+    </div>
+  </section>
+
+  <!-- Section Contact -->
+  <section id="contact" class="section" data-aos="fade-up">
+    <div class="container">
+      <div class="section-header">
+        <h2>Contact</h2>
+        <p class="section-subtitle">Get in Touch</p>
+      </div>
+      <p><a href="mailto:safaferchichi2003@gmail.com">safaferchichi2003@gmail.com</a></p>
+    </div>
+  </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>© 2026 Safa Ferchichi. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <button class="scroll-to-top" id="scrollToTop" type="button" aria-label="Back to the top of the page"><i class="fas fa-chevron-up" aria-hidden="true"></i></button>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js" defer="defer"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js" defer="defer"></script>
+  <script src="../static/js/portfolio.js" defer="defer"></script>
+</body>
+
+</html>

@@ -1,0 +1,624 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE portfolio SYSTEM "portfolio.dtd">
+
+<portfolio>
+
+<!-- Informations personnelles FOAF -->
+<block id="personal_name">
+  <content lang="fr">Safa Ferchichi</content>
+  <content lang="en">Safa Ferchichi</content>
+  <content lang="ar">صفاء فرشيشي</content>
+  <content lang="ja">サファ・フェルシシ</content>
+</block>
+
+<block id="personal_given_name">
+  <content lang="fr">Safa</content>
+  <content lang="en">Safa</content>
+  <content lang="ar">صفاء</content>
+  <content lang="ja">サファ</content>
+</block>
+
+<block id="personal_family_name">
+  <content lang="fr">Ferchichi</content>
+  <content lang="en">Ferchichi</content>
+  <content lang="ar">فرشيشي</content>
+  <content lang="ja">フェルシシ</content>
+</block>
+
+<block id="personal_title">
+  <content lang="fr">Étudiante ingénieure en informatique et développeuse web</content>
+  <content lang="en">Computer engineering student and web developer</content>
+  <content lang="ar">طالبة هندسة معلوماتية ومطورة ويب</content>
+  <content lang="ja">情報工学の学生・Web開発者</content>
+</block>
+
+<block id="personal_email">
+  <content lang="fr">safaferchichi2003@gmail.com</content>
+  <content lang="en">safaferchichi2003@gmail.com</content>
+  <content lang="ar">safaferchichi2003@gmail.com</content>
+  <content lang="ja">safaferchichi2003@gmail.com</content>
+</block>
+
+<block id="personal_gender">
+  <content lang="fr">female</content>
+  <content lang="en">female</content>
+  <content lang="ar">female</content>
+  <content lang="ja">female</content>
+</block>
+
+<block id="personal_location">
+  <content lang="fr">Paris, France</content>
+  <content lang="en">Paris, France</content>
+  <content lang="ar">باريس، فرنسا</content>
+  <content lang="ja">パリ、フランス</content>
+</block>
+
+<block id="personal_description">
+  <content lang="fr">Étudiante en première année de cycle d’ingénieur en informatique à Sup Galilée, passionnée par le développement web, les systèmes d'information et la gestion de projets.</content>
+  <content lang="en">First-year computer engineering student at Sup Galilée, passionate about web development, information systems and project management.</content>
+  <content lang="ar">طالبة في السنة الأولى هندسة معلوماتية في Sup Galilée، شغوفة بتطوير الويب ونظم المعلومات وإدارة المشاريع.</content>
+  <content lang="ja">Sup Galilée の情報工学1年生。Web開発、情報システム、プロジェクト管理に関心があります。</content>
+</block>
+
+<!-- Organisations/Entreprises -->
+<block id="org_holydis">
+  <content lang="fr">SOTEB Modula</content>
+  <content lang="en">SOTEB Modula</content>
+  <content lang="ar">SOTEB Modula</content>
+  <content lang="ja">SOTEB Modula</content>
+</block>
+
+<block id="org_sorbonne">
+  <content lang="fr">Sup Galilée – Université Sorbonne Paris Nord</content>
+  <content lang="en">Sup Galilée – Sorbonne Paris Nord University</content>
+  <content lang="ar">Sup Galilée – جامعة سوربون باريس نورد</content>
+  <content lang="ja">Sup Galilée – ソルボンヌ・パリ・ノール大学</content>
+</block>
+
+<block id="org_upjv">
+  <content lang="fr">ISET Radès</content>
+  <content lang="en">ISET Radès</content>
+  <content lang="ar">المعهد العالي للدراسات التكنولوجية برادس</content>
+  <content lang="ja">ISET Radès</content>
+</block>
+
+<block id="contact_email_label">
+  <content lang="fr">Email :</content>
+  <content lang="en">Email:</content>
+  <content lang="ar">البريد الإلكتروني:</content>
+  <content lang="ja">メール：</content>
+</block>
+
+<block id="contact_linkedin_label">
+  <content lang="fr">LinkedIn :</content>
+  <content lang="en">LinkedIn:</content>
+  <content lang="ar">لينكدإن:</content>
+  <content lang="ja">リンクトイン：</content>
+</block>
+
+
+<!-- Projets actuels -->
+<block id="current_project_ai">
+  <content lang="fr">Conception et développement d’applications web</content>
+  <content lang="en">Design and development of web applications</content>
+  <content lang="ar">تصميم وتطوير تطبيقات الويب</content>
+  <content lang="ja">Webアプリケーションの設計・開発</content>
+</block>
+
+<block id="current_project_ws">
+  <content lang="fr">Portfolio XML, DTD, XSD, XSLT et RDFa</content>
+  <content lang="en">XML, DTD, XSD, XSLT and RDFa portfolio</content>
+  <content lang="ar">محفظة XML و DTD و XSD و XSLT و RDFa</content>
+  <content lang="ja">XML・DTD・XSD・XSLT・RDFa ポートフォリオ</content>
+</block>
+
+<!-- Centres d'intérêt/Compétences -->
+<block id="interest_ai">
+  <content lang="fr">Systèmes d’information</content>
+  <content lang="en">Information Systems</content>
+  <content lang="ar">نظم المعلومات</content>
+  <content lang="ja">情報システム</content>
+</block>
+
+<block id="interest_semantic_web">
+  <content lang="fr">Web sémantique</content>
+  <content lang="en">Semantic Web</content>
+  <content lang="ar">الويب الدلالي</content>
+  <content lang="ja">セマンティックウェブ</content>
+</block>
+
+<block id="interest_fullstack">
+  <content lang="fr">Développement web</content>
+  <content lang="en">Web Development</content>
+  <content lang="ar">تطوير الويب</content>
+  <content lang="ja">Web開発</content>
+</block>
+
+<block id="page_title">
+  <content lang="fr">Safa Ferchichi – Étudiante ingénieure en informatique</content>
+  <content lang="en">Safa Ferchichi – Computer Engineering Student</content>
+  <content lang="ar">صفاء فرشيشي – طالبة هندسة معلوماتية</content>
+  <content lang="ja">サファ・フェルシシ – 情報工学の学生</content>
+</block>
+
+<block id="skills_expert_title">
+  <content lang="fr">Domaines d’expertise</content>
+  <content lang="en">Areas of expertise</content>
+  <content lang="ar">مجالات الخبرة</content>
+  <content lang="ja">専門分野</content>
+</block>
+
+
+<block id="interest_python">
+  <content lang="fr">Python</content>
+  <content lang="en">Python</content>
+  <content lang="ar">Python</content>
+  <content lang="ja">Python</content>
+</block>
+
+<block id="interest_csharp">
+  <content lang="fr">Laravel</content>
+  <content lang="en">Laravel</content>
+  <content lang="ar">Laravel</content>
+  <content lang="ja">Laravel</content>
+</block>
+
+<block id="interest_rdf">
+  <content lang="fr">XML / RDFa</content>
+  <content lang="en">XML / RDFa</content>
+  <content lang="ar">XML / RDFa</content>
+  <content lang="ja">XML / RDFa</content>
+</block>
+
+<block id="interest_sparql">
+  <content lang="fr">SQL / PLSQL</content>
+  <content lang="en">SQL / PLSQL</content>
+  <content lang="ar">SQL / PLSQL</content>
+  <content lang="ja">SQL / PLSQL</content>
+</block>
+
+<!-- Comptes en ligne -->
+<block id="account_linkedin_name">
+  <content lang="fr">safa-ferchichi-06948924b</content>
+  <content lang="en">safa-ferchichi-06948924b</content>
+  <content lang="ar">safa-ferchichi-06948924b</content>
+  <content lang="ja">safa-ferchichi-06948924b</content>
+</block>
+
+<block id="account_linkedin_url">
+  <content lang="fr">https://www.linkedin.com/in/safa-ferchichi-06948924b/</content>
+  <content lang="en">https://www.linkedin.com/in/safa-ferchichi-06948924b/</content>
+  <content lang="ar">https://www.linkedin.com/in/safa-ferchichi-06948924b/</content>
+  <content lang="ja">https://www.linkedin.com/in/safa-ferchichi-06948924b/</content>
+</block>
+
+<!-- Formation -->
+<block id="education_title">
+  <content lang="fr">Formation</content>
+  <content lang="en">Education</content>
+  <content lang="ar">التعليم</content>
+  <content lang="ja">学歴</content>
+</block>
+
+<block id="education_sorbonne">
+  <content lang="fr">Diplôme d’ingénieur en informatique – Sup Galilée, Université Sorbonne Paris Nord (2024–aujourd’hui)</content>
+  <content lang="en">Computer Engineering Degree – Sup Galilée, Sorbonne Paris Nord University (2024–present)</content>
+  <content lang="ar">دبلوم هندسة في الإعلامية – Sup Galilée، جامعة سوربون باريس نورد (2024–الآن)</content>
+  <content lang="ja">情報工学エンジニア課程 – Sup Galilée, Sorbonne Paris Nord University（2024年〜現在）</content>
+</block>
+<block id="period_holydis_ai">
+  <content lang="fr">Février 2024 – Mai 2024</content>
+  <content lang="en">February 2024 – May 2024</content>
+  <content lang="ar">فبراير 2024 – مايو 2024</content>
+  <content lang="ja">2024年2月〜2024年5月</content>
+</block>
+
+<block id="period_holydis_fs">
+  <content lang="fr">Janvier 2023 – Février 2023</content>
+  <content lang="en">January 2023 – February 2023</content>
+  <content lang="ar">يناير 2023 – فبراير 2023</content>
+  <content lang="ja">2023年1月〜2023年2月</content>
+</block>
+
+<block id="current_project_fs">
+  <content lang="fr">Applications web avec Laravel, Symfony et PHP</content>
+  <content lang="en">Web applications with Laravel, Symfony and PHP</content>
+  <content lang="ar">تطبيقات ويب باستخدام Laravel و Symfony و PHP</content>
+  <content lang="ja">Laravel・Symfony・PHPによるWebアプリケーション</content>
+</block>
+
+<block id="education_upjv">
+  <content lang="fr">Licence appliquée en Technologies de l’informatique, spécialité Développement des Systèmes d’Information – ISET Radès (2021–2024)</content>
+  <content lang="en">Applied Bachelor in Information Technology, Information Systems Development – ISET Radès (2021–2024)</content>
+  <content lang="ar">إجازة تطبيقية في تكنولوجيا الإعلامية، اختصاص تطوير نظم المعلومات – ISET Radès (2021–2024)</content>
+  <content lang="ja">応用情報技術学士・情報システム開発専攻 – ISET Radès（2021年〜2024年）</content>
+</block>
+
+<!-- Compétences -->
+<block id="skills_title">
+  <content lang="fr">Compétences Techniques</content>
+  <content lang="en">Technical Skills</content>
+  <content lang="ar">المهارات التقنية</content>
+  <content lang="ja">技術スキル</content>
+</block>
+<block id="education_upjv_title">
+  <content lang="fr">Licence appliquée en Technologies de l’informatique</content>
+  <content lang="en">Applied Bachelor in Information Technology</content>
+  <content lang="ar">إجازة تطبيقية في تكنولوجيا الإعلامية</content>
+  <content lang="ja">応用情報技術学士</content>
+</block>
+
+<block id="period_upjv">
+  <content lang="fr">2021 – 2024</content>
+  <content lang="en">2021 – 2024</content>
+  <content lang="ar">2021 – 2024</content>
+  <content lang="ja">2021年〜2024年</content>
+</block>
+
+<block id="skills_list">
+  <content lang="fr">Laravel, Symfony, PHP, Java, C, C++, Python, JavaScript, Angular, Android, SQL/PLSQL, MongoDB, Power BI, SSIS, Excel</content>
+  <content lang="en">Laravel, Symfony, PHP, Java, C, C++, Python, JavaScript, Angular, Android, SQL/PLSQL, MongoDB, Power BI, SSIS, Excel</content>
+  <content lang="ar">Laravel، Symfony، PHP، Java، C، C++، Python، JavaScript، Angular، Android، SQL/PLSQL، MongoDB، Power BI، SSIS، Excel</content>
+  <content lang="ja">Laravel、Symfony、PHP、Java、C、C++、Python、JavaScript、Angular、Android、SQL/PLSQL、MongoDB、Power BI、SSIS、Excel</content>
+</block>
+
+<!-- Expérience professionnelle -->
+<block id="experience_title">
+  <content lang="fr">Expérience</content>
+  <content lang="en">Experience</content>
+  <content lang="ar">الخبرة</content>
+  <content lang="ja">職務経験</content>
+</block>
+
+<block id="exp_holydis_ai">
+  <content lang="fr">Stage de fin d’études – SOTEB Modula, Tunis (févr. 2024 – mai 2024) : conception et développement d’une application web de gestion logistique avec Laravel.</content>
+  <content lang="en">Final-year internship – SOTEB Modula, Tunis (Feb 2024 – May 2024): design and development of a logistics management web application with Laravel.</content>
+  <content lang="ar">تربص ختم الدراسة – SOTEB Modula، تونس (فبراير 2024 – مايو 2024): تصميم وتطوير تطبيق ويب لإدارة اللوجستيك باستخدام Laravel.</content>
+  <content lang="ja">卒業インターンシップ – SOTEB Modula, Tunis（2024年2月〜5月）：Laravelによる物流管理Webアプリケーションの設計・開発。</content>
+</block>
+
+<block id="exp_holydis_fs">
+  <content lang="fr">Stage de perfectionnement – Clevory Training, Tunis (janv. 2023 – févr. 2023) : développement d’un site e-commerce avec PrestaShop et amélioration de l’expérience utilisateur.</content>
+  <content lang="en">Internship – Clevory Training, Tunis (Jan 2023 – Feb 2023): development of an e-commerce website with PrestaShop and improvement of the user experience.</content>
+  <content lang="ar">تربص تطوير – Clevory Training، تونس (يناير 2023 – فبراير 2023): تطوير موقع تجارة إلكترونية باستخدام PrestaShop وتحسين تجربة المستخدم.</content>
+  <content lang="ja">インターンシップ – Clevory Training, Tunis（2023年1月〜2月）：PrestaShopによるECサイト開発とユーザー体験改善。</content>
+</block>
+
+<!-- TPs de Web Sémantique -->
+<block id="tp_ws_title">
+  <content lang="fr">TPs Web Sémantique</content>
+  <content lang="en">Semantic Web Labs</content>
+  <content lang="ar">تمارين الويب الدلالي</content>
+  <content lang="ja">セマンティックウェブの演習</content>
+</block>
+
+<block id="tp_ws_dtd">
+  <content lang="fr">Définition d’une DTD pour structurer un portfolio multilingue (XML + DTD)</content>
+  <content lang="en">Definition of a DTD to structure a multilingual portfolio (XML + DTD)</content>
+  <content lang="ar">تعريف DTD لتنظيم محفظة متعددة اللغات (XML + DTD)</content>
+  <content lang="ja">多言語ポートフォリオを構造化するためのDTD定義（XML + DTD）</content>
+</block>
+
+<block id="tp_ws_xsd">
+  <content lang="fr">Validation du portfolio avec un schéma XSD personnalisé</content>
+  <content lang="en">Portfolio validation with a custom XSD schema</content>
+  <content lang="ar">التحقق من المحفظة باستعمال مخطط XSD مخصص</content>
+  <content lang="ja">カスタムXSDスキーマによるポートフォリオ検証</content>
+</block>
+
+<block id="tp_ws_xslt">
+  <content lang="fr">Transformation du contenu XML en pages HTML5 avec XSLT</content>
+  <content lang="en">Transformation of XML content into HTML5 pages with XSLT</content>
+  <content lang="ar">تحويل محتوى XML إلى صفحات HTML5 باستخدام XSLT</content>
+  <content lang="ja">XSLTを使用してXMLコンテンツをHTML5ページへ変換</content>
+</block>
+
+<block id="tp_ws_rdf">
+  <content lang="fr">Utilisation de RDF / RDFS pour enrichir les métadonnées du portfolio</content>
+  <content lang="en">Use of RDF / RDFS to enrich portfolio metadata</content>
+  <content lang="ar">استعمال RDF / RDFS لإثراء بيانات المحفظة</content>
+  <content lang="ja">RDF / RDFSを用いたポートフォリオメタデータの拡張</content>
+</block>
+
+<block id="tp_ws_rdfa">
+  <content lang="fr">Annotation RDFa dans le HTML pour améliorer le référencement et l’accessibilité</content>
+  <content lang="en">RDFa annotation in HTML to improve SEO and accessibility</content>
+  <content lang="ar">إضافة RDFa في HTML لتحسين محركات البحث وإمكانية الوصول</content>
+  <content lang="ja">SEOとアクセシビリティ向上のためのHTML内RDFa注釈</content>
+</block>
+
+<!-- Reste du contenu existant... -->
+<block id="video_title">
+  <content lang="fr">Présentation Vidéo</content>
+  <content lang="en">Video Presentation</content>
+  <content lang="ar">عرض فيديو</content>
+  <content lang="ja">ビデオプレゼンテーション</content>
+</block>
+
+<block id="video_iframe">
+  <content lang="fr">
+    &lt;video controls="controls" preload="metadata" poster="/static/assets/profile.jpg" aria-label="Présentation vidéo de Safa Ferchichi"&gt;
+      &lt;source src="/static/assets/presentation-safa-nouvelle-voix.mp4" type="video/mp4" /&gt;
+      &lt;track kind="subtitles" src="/static/assets/presentation-safa-fr.vtt" srclang="fr" label="Français" default="default" /&gt;
+      &lt;track kind="subtitles" src="/static/assets/presentation-safa-en.vtt" srclang="en" label="English" /&gt;
+      &lt;track kind="subtitles" src="/static/assets/presentation-safa-ar.vtt" srclang="ar" label="العربية" /&gt;
+      &lt;track kind="subtitles" src="/static/assets/presentation-safa-ja.vtt" srclang="ja" label="日本語" /&gt;
+    &lt;/video&gt;
+  </content>
+  <content lang="en">
+    &lt;video controls="controls" preload="metadata" poster="/static/assets/profile.jpg" aria-label="Video presentation by Safa Ferchichi"&gt;
+      &lt;source src="/static/assets/presentation-safa-nouvelle-voix.mp4" type="video/mp4" /&gt;
+      &lt;track kind="subtitles" src="/static/assets/presentation-safa-en.vtt" srclang="en" label="English" default="default" /&gt;
+      &lt;track kind="subtitles" src="/static/assets/presentation-safa-fr.vtt" srclang="fr" label="Français" /&gt;
+      &lt;track kind="subtitles" src="/static/assets/presentation-safa-ar.vtt" srclang="ar" label="العربية" /&gt;
+      &lt;track kind="subtitles" src="/static/assets/presentation-safa-ja.vtt" srclang="ja" label="日本語" /&gt;
+    &lt;/video&gt;
+  </content>
+  <content lang="ar">
+    &lt;video controls="controls" preload="metadata" poster="/static/assets/profile.jpg" aria-label="عرض فيديو لصفاء فرشيشي"&gt;
+      &lt;source src="/static/assets/presentation-safa-nouvelle-voix.mp4" type="video/mp4" /&gt;
+      &lt;track kind="subtitles" src="/static/assets/presentation-safa-ar.vtt" srclang="ar" label="العربية" default="default" /&gt;
+      &lt;track kind="subtitles" src="/static/assets/presentation-safa-fr.vtt" srclang="fr" label="Français" /&gt;
+      &lt;track kind="subtitles" src="/static/assets/presentation-safa-en.vtt" srclang="en" label="English" /&gt;
+      &lt;track kind="subtitles" src="/static/assets/presentation-safa-ja.vtt" srclang="ja" label="日本語" /&gt;
+    &lt;/video&gt;
+  </content>
+  <content lang="ja">
+    &lt;video controls="controls" preload="metadata" poster="/static/assets/profile.jpg" aria-label="サファ・フェルシシのビデオ紹介"&gt;
+      &lt;source src="/static/assets/presentation-safa-nouvelle-voix.mp4" type="video/mp4" /&gt;
+      &lt;track kind="subtitles" src="/static/assets/presentation-safa-ja.vtt" srclang="ja" label="日本語" default="default" /&gt;
+      &lt;track kind="subtitles" src="/static/assets/presentation-safa-fr.vtt" srclang="fr" label="Français" /&gt;
+      &lt;track kind="subtitles" src="/static/assets/presentation-safa-en.vtt" srclang="en" label="English" /&gt;
+      &lt;track kind="subtitles" src="/static/assets/presentation-safa-ar.vtt" srclang="ar" label="العربية" /&gt;
+    &lt;/video&gt;
+  </content>
+</block>
+
+
+
+<!-- Navigation -->
+<block id="nav_home">
+  <content lang="fr">Accueil</content>
+  <content lang="en">Home</content>
+  <content lang="ar">الرئيسية</content>
+  <content lang="ja">ホーム</content>
+</block>
+
+<block id="nav_about">
+  <content lang="fr">À propos</content>
+  <content lang="en">About</content>
+  <content lang="ar">حول</content>
+  <content lang="ja">自己紹介</content>
+</block>
+
+<block id="nav_skills">
+  <content lang="fr">Compétences</content>
+  <content lang="en">Skills</content>
+  <content lang="ar">مهارات</content>
+  <content lang="ja">スキル</content>
+</block>
+
+<block id="nav_experience">
+  <content lang="fr">Expérience</content>
+  <content lang="en">Experience</content>
+  <content lang="ar">الخبرة</content>
+  <content lang="ja">経験</content>
+</block>
+
+<block id="nav_education">
+  <content lang="fr">Formation</content>
+  <content lang="en">Education</content>
+  <content lang="ar">التعليم</content>
+  <content lang="ja">学歴</content>
+</block>
+
+<block id="nav_contact">
+  <content lang="fr">Contact</content>
+  <content lang="en">Contact</content>
+  <content lang="ar">اتصل</content>
+  <content lang="ja">連絡先</content>
+</block>
+
+<!-- Sous-titres de section -->
+<block id="subtitle_about">
+  <content lang="fr">Étudiante ingénieure en informatique</content>
+  <content lang="en">Computer engineering student</content>
+  <content lang="ar">طالبة هندسة معلوماتية</content>
+  <content lang="ja">情報工学の学生</content>
+</block>
+
+<block id="subtitle_skills">
+  <content lang="fr">Technologies et outils</content>
+  <content lang="en">Technologies and tools</content>
+  <content lang="ar">التقنيات والأدوات</content>
+  <content lang="ja">技術とツール</content>
+</block>
+
+<block id="subtitle_experience">
+  <content lang="fr">Parcours professionnel</content>
+  <content lang="en">Professional Journey</content>
+  <content lang="ar">المسار المهني</content>
+  <content lang="ja">職歴</content>
+</block>
+
+<block id="subtitle_education">
+  <content lang="fr">Parcours académique</content>
+  <content lang="en">Academic Background</content>
+  <content lang="ar">الخلفية الأكاديمية</content>
+  <content lang="ja">学歴</content>
+</block>
+
+<block id="subtitle_contact">
+  <content lang="fr">Entrons en contact</content>
+  <content lang="en">Get in Touch</content>
+  <content lang="ar">تواصل معنا</content>
+  <content lang="ja">ご連絡ください</content>
+</block>
+
+<block id="footer_year">
+  <content lang="fr">2025</content>
+  <content lang="en">2025</content>
+  <content lang="ar">2025</content>
+  <content lang="ja">2025年</content>
+</block>
+
+<block id="footer_rights">
+  <content lang="fr">Tous droits réservés.</content>
+  <content lang="en">All rights reserved.</content>
+  <content lang="ar">كل الحقوق محفوظة.</content>
+  <content lang="ja">全著作権所有。</content>
+</block>
+
+<block id="footer_made">
+  <content lang="fr">Portfolio développé avec les technologies du web sémantique</content>
+  <content lang="en">Portfolio developed with semantic web technologies</content>
+  <content lang="ar">محفظة مطورة بتقنيات الويب الدلالي</content>
+  <content lang="ja">セマンティックウェブ技術で開発されたポートフォリオ</content>
+</block>
+
+<!-- Métadonnées SEO -->
+<block id="meta_description">
+  <content lang="fr">Safa Ferchichi – Étudiante ingénieure en informatique à Sup Galilée, passionnée par le développement web, les systèmes d’information et les technologies du web sémantique.</content>
+  <content lang="en">Safa Ferchichi – Computer engineering student at Sup Galilée, passionate about web development, information systems and semantic web technologies.</content>
+  <content lang="ar">صفاء فرشيشي – طالبة هندسة معلوماتية في Sup Galilée، شغوفة بتطوير الويب ونظم المعلومات وتقنيات الويب الدلالي.</content>
+  <content lang="ja">サファ・フェルシシ – Sup Galiléeの情報工学学生。Web開発、情報システム、セマンティックWeb技術に関心があります。</content>
+</block>
+
+<block id="meta_keywords">
+  <content lang="fr">Safa Ferchichi, Laravel, Symfony, PHP, Java, Python, SQL, Portfolio</content>
+  <content lang="en">Safa Ferchichi, Laravel, Symfony, PHP, Java, Python, SQL, Portfolio</content>
+  <content lang="ar">صفاء فرشيشي، Laravel، Symfony، PHP، Java، Python، SQL، محفظة</content>
+  <content lang="ja">サファ・フェルシシ、Laravel、Symfony、PHP、Java、Python、SQL、ポートフォリオ</content>
+</block>
+
+<!-- Écran de chargement -->
+<block id="loading_text">
+  <content lang="fr">Chargement du portfolio...</content>
+  <content lang="en">Loading portfolio...</content>
+  <content lang="ar">جارٍ تحميل المحفظة...</content>
+  <content lang="ja">ポートフォリオを読み込み中...</content>
+</block>
+
+<!-- Boutons -->
+<block id="btn_contact">
+  <content lang="fr">Me contacter</content>
+  <content lang="en">Contact me</content>
+  <content lang="ar">تواصل معي</content>
+  <content lang="ja">連絡する</content>
+</block>
+
+<block id="btn_download">
+  <content lang="fr">Télécharger CV</content>
+  <content lang="en">Download CV</content>
+  <content lang="ar">تحميل السيرة الذاتية</content>
+  <content lang="ja">履歴書をダウンロード</content>
+</block>
+
+<!-- Libellés d'accessibilité et textes d'interface -->
+<block id="skip_link">
+  <content lang="fr">Aller au contenu principal</content>
+  <content lang="en">Skip to main content</content>
+  <content lang="ar">الانتقال إلى المحتوى الرئيسي</content>
+  <content lang="ja">メインコンテンツへ移動</content>
+</block>
+
+<block id="nav_label">
+  <content lang="fr">Navigation principale</content>
+  <content lang="en">Main navigation</content>
+  <content lang="ar">التنقل الرئيسي</content>
+  <content lang="ja">メインナビゲーション</content>
+</block>
+
+<block id="language_selector_label">
+  <content lang="fr">Choisir la langue</content>
+  <content lang="en">Choose language</content>
+  <content lang="ar">اختيار اللغة</content>
+  <content lang="ja">言語を選択</content>
+</block>
+
+<block id="menu_label">
+  <content lang="fr">Ouvrir ou fermer le menu</content>
+  <content lang="en">Open or close the menu</content>
+  <content lang="ar">فتح القائمة أو إغلاقها</content>
+  <content lang="ja">メニューを開閉</content>
+</block>
+
+<block id="linkedin_label">
+  <content lang="fr">Profil LinkedIn de Safa Ferchichi</content>
+  <content lang="en">Safa Ferchichi's LinkedIn profile</content>
+  <content lang="ar">ملف صفاء فرشيشي على لينكدإن</content>
+  <content lang="ja">サファ・フェルシシのLinkedInプロフィール</content>
+</block>
+
+<block id="email_label">
+  <content lang="fr">Envoyer un courriel à Safa Ferchichi</content>
+  <content lang="en">Email Safa Ferchichi</content>
+  <content lang="ar">إرسال بريد إلكتروني إلى صفاء فرشيشي</content>
+  <content lang="ja">サファ・フェルシシにメールを送る</content>
+</block>
+
+<block id="profile_alt">
+  <content lang="fr">Portrait de Safa Ferchichi</content>
+  <content lang="en">Portrait of Safa Ferchichi</content>
+  <content lang="ar">صورة صفاء فرشيشي</content>
+  <content lang="ja">サファ・フェルシシのポートレート</content>
+</block>
+
+<block id="top_label">
+  <content lang="fr">Retour en haut de la page</content>
+  <content lang="en">Back to the top of the page</content>
+  <content lang="ar">العودة إلى أعلى الصفحة</content>
+  <content lang="ja">ページ上部へ戻る</content>
+</block>
+
+<block id="typewriter_texts">
+  <content lang="fr">Développement Web|Laravel / Symfony|Étudiante ingénieure|Systèmes d’information</content>
+  <content lang="en">Web Development|Laravel / Symfony|Engineering Student|Information Systems</content>
+  <content lang="ar">تطوير الويب|Laravel / Symfony|طالبة هندسة|نظم المعلومات</content>
+  <content lang="ja">Web開発|Laravel / Symfony|工学部学生|情報システム</content>
+</block>
+
+<block id="skills_languages_title">
+  <content lang="fr">Langages de programmation</content>
+  <content lang="en">Programming languages</content>
+  <content lang="ar">لغات البرمجة</content>
+  <content lang="ja">プログラミング言語</content>
+</block>
+
+<block id="skills_web_title">
+  <content lang="fr">Technologies web et données</content>
+  <content lang="en">Web and data technologies</content>
+  <content lang="ar">تقنيات الويب والبيانات</content>
+  <content lang="ja">Web・データ技術</content>
+</block>
+
+<block id="skills_expertise_title">
+  <content lang="fr">Domaines d’expertise</content>
+  <content lang="en">Areas of expertise</content>
+  <content lang="ar">مجالات الخبرة</content>
+  <content lang="ja">専門分野</content>
+</block>
+
+<block id="fullstack_description">
+  <content lang="fr">Développement d’applications web complètes</content>
+  <content lang="en">Full web application development</content>
+  <content lang="ar">تطوير تطبيقات ويب متكاملة</content>
+  <content lang="ja">Webアプリケーションの総合開発</content>
+</block>
+
+<block id="email_short_label">
+  <content lang="fr">Courriel</content>
+  <content lang="en">Email</content>
+  <content lang="ar">البريد الإلكتروني</content>
+  <content lang="ja">メール</content>
+</block>
+
+<block id="linkedin_short_label">
+  <content lang="fr">LinkedIn</content>
+  <content lang="en">LinkedIn</content>
+  <content lang="ar">لينكدإن</content>
+  <content lang="ja">LinkedIn</content>
+</block>
+
+
+</portfolio>
