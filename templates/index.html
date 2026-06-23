@@ -138,7 +138,39 @@
         <p class="section-subtitle">{{ texts['subtitle_skills'] }}</p>
       </div>
       <div class="skills-grid">
-        <p>{{ texts['skills_list'] }}</p>
+        <div class="skill-card" property="foaf:topic_interest">
+          <h3>{{ texts['skills_languages_title'] }}</h3>
+          <div class="skill-tags" aria-label="{{ texts['skills_languages_title'] }}">
+            <span property="foaf:topic_interest">Python</span>
+            <span property="foaf:topic_interest">Java</span>
+            <span property="foaf:topic_interest">PHP</span>
+            <span property="foaf:topic_interest">C</span>
+            <span property="foaf:topic_interest">C++</span>
+            <span property="foaf:topic_interest">JavaScript</span>
+          </div>
+        </div>
+        <div class="skill-card" property="foaf:topic_interest">
+          <h3>{{ texts['skills_web_title'] }}</h3>
+          <div class="skill-tags" aria-label="{{ texts['skills_web_title'] }}">
+            <span property="foaf:topic_interest">Laravel</span>
+            <span property="foaf:topic_interest">Symfony</span>
+            <span property="foaf:topic_interest">Angular</span>
+            <span property="foaf:topic_interest">Android</span>
+            <span property="foaf:topic_interest">HTML5</span>
+            <span property="foaf:topic_interest">CSS3</span>
+          </div>
+        </div>
+        <div class="skill-card" property="foaf:topic_interest">
+          <h3>{{ texts['skills_expertise_title'] }}</h3>
+          <div class="skill-tags" aria-label="{{ texts['skills_expertise_title'] }}">
+            <span property="foaf:topic_interest">SQL/PLSQL</span>
+            <span property="foaf:topic_interest">MongoDB</span>
+            <span property="foaf:topic_interest">Power BI</span>
+            <span property="foaf:topic_interest">SSIS</span>
+            <span property="foaf:topic_interest">XML</span>
+            <span property="foaf:topic_interest">RDFa</span>
+          </div>
+        </div>
       </div>
     </div>
   </section>
@@ -151,6 +183,7 @@
         <p class="section-subtitle">{{ texts['subtitle_experience'] }}</p>
       </div>
       <ul class="experience-list">
+        <li>{{ texts['exp_natixis_trading'] }}</li>
         <li>{{ texts['exp_holydis_ai'] }}</li>
         <li>{{ texts['exp_holydis_fs'] }}</li>
       </ul>

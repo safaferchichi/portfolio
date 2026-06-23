@@ -282,47 +282,49 @@
                 </div>
                 
                 <div class="skills-grid">
-                    <div property="foaf:topic_interest">
+                    <div class="skill-card" property="foaf:topic_interest">
                         <h3><xsl:value-of select="portfolio/block[@id='skills_languages_title']/content[@lang=$lang]" /></h3>
-                        <p>
-                            <span property="foaf:topic_interest">
-                                <xsl:value-of select="portfolio/block[@id='interest_python']/content[@lang=$lang]" />
-                            </span>, 
-                            <span property="foaf:topic_interest">
-                                <xsl:value-of select="portfolio/block[@id='interest_csharp']/content[@lang=$lang]" />
-                            </span>, 
-                            <span property="foaf:topic_interest">Java</span>, 
+                        <div class="skill-tags">
+                            <xsl:attribute name="aria-label">
+                                <xsl:value-of select="portfolio/block[@id='skills_languages_title']/content[@lang=$lang]" />
+                            </xsl:attribute>
+                            <span property="foaf:topic_interest">Python</span>
+                            <span property="foaf:topic_interest">Java</span>
+                            <span property="foaf:topic_interest">PHP</span>
+                            <span property="foaf:topic_interest">C</span>
+                            <span property="foaf:topic_interest">C++</span>
                             <span property="foaf:topic_interest">JavaScript</span>
-                        </p>
+                        </div>
                     </div>
                     
-                    <div property="foaf:topic_interest">
+                    <div class="skill-card" property="foaf:topic_interest">
                         <h3><xsl:value-of select="portfolio/block[@id='skills_web_title']/content[@lang=$lang]" /></h3>
-                        <p>
-                            <span property="foaf:topic_interest">SQL</span>, 
-                            <span property="foaf:topic_interest">XML</span>, 
-                            <span property="foaf:topic_interest">
-                                <xsl:value-of select="portfolio/block[@id='interest_rdf']/content[@lang=$lang]" />
-                            </span>, 
-                            <span property="foaf:topic_interest">
-                                <xsl:value-of select="portfolio/block[@id='interest_sparql']/content[@lang=$lang]" />
-                            </span>
-                        </p>
+                        <div class="skill-tags">
+                            <xsl:attribute name="aria-label">
+                                <xsl:value-of select="portfolio/block[@id='skills_web_title']/content[@lang=$lang]" />
+                            </xsl:attribute>
+                            <span property="foaf:topic_interest">Laravel</span>
+                            <span property="foaf:topic_interest">Symfony</span>
+                            <span property="foaf:topic_interest">Angular</span>
+                            <span property="foaf:topic_interest">Android</span>
+                            <span property="foaf:topic_interest">HTML5</span>
+                            <span property="foaf:topic_interest">CSS3</span>
+                        </div>
                     </div>
                     
-                    <div property="foaf:topic_interest">
+                    <div class="skill-card" property="foaf:topic_interest">
                         <h3><xsl:value-of select="portfolio/block[@id='skills_expertise_title']/content[@lang=$lang]" /></h3>
-                        <p>
-                            <span property="foaf:topic_interest">
-                                <xsl:value-of select="portfolio/block[@id='interest_ai']/content[@lang=$lang]" />
-                            </span>, 
-                            <span property="foaf:topic_interest">
-                                <xsl:value-of select="portfolio/block[@id='interest_semantic_web']/content[@lang=$lang]" />
-                            </span>, 
-                            <span property="foaf:topic_interest">
-                                <xsl:value-of select="portfolio/block[@id='interest_fullstack']/content[@lang=$lang]" />
-                            </span>
-                        </p>
+                        <div class="skill-tags">
+                            <xsl:attribute name="aria-label">
+                                <xsl:value-of select="portfolio/block[@id='skills_expertise_title']/content[@lang=$lang]" />
+                            </xsl:attribute>
+                            <span property="foaf:topic_interest">SQL/PLSQL</span>
+                            <span property="foaf:topic_interest">MongoDB</span>
+                            <span property="foaf:topic_interest">Power BI</span>
+                            <span property="foaf:topic_interest">SSIS</span>
+                            <span property="foaf:topic_interest">XML</span>
+                            <span property="foaf:topic_interest">RDFa</span>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -341,6 +343,12 @@
                 </div>
                 
                 <div class="experience-list">
+                    <div property="foaf:workplaceHomepage" typeof="foaf:Organization">
+                        <h3>
+                            <xsl:value-of select="portfolio/block[@id='exp_natixis_trading']/content[@lang=$lang]" />
+                        </h3>
+                    </div>
+
                     <div property="foaf:workplaceHomepage" typeof="foaf:Organization">
                         <h3>
                             <xsl:value-of select="portfolio/block[@id='exp_holydis_ai']/content[@lang=$lang]" />

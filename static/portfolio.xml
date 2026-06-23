@@ -270,6 +270,13 @@
   <content lang="ja">職務経験</content>
 </block>
 
+<block id="exp_natixis_trading">
+  <content lang="fr">Alternante chez Natixis (2025 - aujourd'hui) : support de trading, suivi des demandes utilisateurs et assistance fonctionnelle sur les outils de marché.</content>
+  <content lang="en">Work-study student at Natixis (2025 - present): trading support, user request follow-up and functional assistance on market tools.</content>
+  <content lang="ar">طالبة بالتناوب لدى Natixis (2025 - حتى الآن): دعم التداول، متابعة طلبات المستخدمين والمساعدة الوظيفية على أدوات السوق.</content>
+  <content lang="ja">Natixisでワークスタディ学生（2025年 - 現在）：トレーディングサポート、ユーザー依頼のフォロー、市場系ツールの機能サポート。</content>
+</block>
+
 <block id="exp_holydis_ai">
   <content lang="fr">Stage de fin d’études – SOTEB Modula, Tunis (févr. 2024 – mai 2024) : conception et développement d’une application web de gestion logistique avec Laravel.</content>
   <content lang="en">Final-year internship – SOTEB Modula, Tunis (Feb 2024 – May 2024): design and development of a logistics management web application with Laravel.</content>

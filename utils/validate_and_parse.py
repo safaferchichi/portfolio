@@ -6,9 +6,9 @@ print("🔍 Validation DTD…")
 dtd = etree.DTD('data/portfolio.dtd')
 xml_doc = etree.parse('portfolio.xml')
 if dtd.validate(xml_doc):
-    print(" portfolio.xml est conforme à portfolio.dtd")
+    print("✅ portfolio.xml est conforme à portfolio.dtd")
 else:
-    print(" Erreurs de validation DTD:")
+    print("❌ Erreurs de validation DTD:")
     for err in dtd.error_log.filter_from_errors():
         print(f" - Ligne {err.line}, Col {err.column} : {err.message}")
 
